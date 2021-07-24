@@ -1,3 +1,4 @@
+#не решена
 a = int(input('enter number  '))
 b = int(input('enter number  '))
 c = abs(a-b)
