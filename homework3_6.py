@@ -1,12 +1,16 @@
 # не решена
 a = int(input('enter number  '))
 b = int(input('enter number  '))
-c = abs(a-b)
-if c==0:
-    print('nod= ',a)
-elif a<b:
-    b = c
-    c = abs(a-b)
+if a!=0 or b!=0 or a!=b:
+    if a>b:
+        while a>b:
+            c = a-b
+            a = c     
+        print(a)
+    else:
+        while b>a:
+            c = b-a
+            b = c       
+        print(b)
 else:
-    a = c
-    c = abs(a-b)
+    print(a)
